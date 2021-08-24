@@ -1,3 +1,3 @@
 ## Personal Portfolio
 
-![Portfolio Website](https://i.ibb.co/WgPMpts/image.png)
+![My Portfolio]('https://i.ibb.co/CsLnb8q/portfolio.jpg')
