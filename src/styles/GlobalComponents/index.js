@@ -24,11 +24,19 @@ export const Section = styled.section`
   // animation: 1s ${fadeIn} ease-in;
   scroll-snap-align: start;
   min-height:100vh;
+<<<<<<< HEAD
   
+=======
+  margin-top: 5vh;
+>>>>>>> master
 
   @media ${(props) => props.theme.breakpoints.md} {
     padding: 24px 48px 0;
     flex-direction: column;
+<<<<<<< HEAD
+=======
+    margin-top: 0vh;
+>>>>>>> master
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
@@ -49,7 +57,11 @@ export const SectionTitle = styled.h2`
   background-image: linear-gradient(160deg,#0A81AB,#F9DFDC);
   // background: linear-gradient(121.57deg, #FFFFFF 18.77%, rgba(255, 255, 255, 0.66) 60.15%);
   -webkit-background-clip: text;
+<<<<<<< HEAD
   -webkit-text-fill-color: transparent;
+=======
+  text-fill-color: transparent;
+>>>>>>> master
   margin-bottom: 16px;
   padding: ${(props) => props.main ? '0px 0 0px' : '0'};
   // animation: 2s ${fadeIn} ease-in;

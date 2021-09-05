@@ -1,22 +1,24 @@
 import Link from 'next/link';
-import React from 'react';
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
+import React,{useState} from 'react';
+import { AiFillGithub, AiFillTwitterCircle, AiFillLinkedin,AiFillCloseCircle } from 'react-icons/ai';
+import { FaHamburger } from 'react-icons/fa';
 import { SiRiot } from 'react-icons/si';
+import { GrClose } from 'react-icons/gr';
 
-import { Container, Div1, Div2, Div3, NavLink,Span, SocialIcons } from './HeaderStyles';
+import { Container, Logo, NavLinks, Social, NavLink, SocialIcons,HamBurger } from './HeaderStyles';
 
-const Header = () =>  (
-  
+const Header = () =>  {
+  const [isOpen, setisOpen] = useState(false)
+  return(
   <Container>
-
-  <Div1>
+  <Logo>
    <Link href="/">
-     <a style={{ display:"flex", alignItems:"center", color:"white"}}>
+     <a style={{ display:"flex", alignItems:"center", color:"black"}}>
       <SiRiot size = "3rem"/>
      </a>
    </Link>
-  </Div1>
-  <Div2>
+  </Logo>
+  <NavLinks isOpen = {isOpen}>
     <li>
       <Link href="#projects">
         <NavLink>My Projects</NavLink>
@@ -32,19 +34,24 @@ const Header = () =>  (
         <NavLink>About Me</NavLink>
       </Link>
     </li>
-  </Div2>
-  <Div3>
+  </NavLinks>
+  <Social>
     <SocialIcons href="https://github.com/rakshithGGowda">
       <AiFillGithub/>
     </SocialIcons>
     <SocialIcons href="https://www.linkedin.com/in/rakshith-gowda-604a94178/">
       <AiFillLinkedin/>
     </SocialIcons>
-    <SocialIcons href="https://www.instagram.com/">
-      <AiFillInstagram/>
+    <SocialIcons href="https://twitter.com/Rakshit86337943">
+      <AiFillTwitterCircle/>
     </SocialIcons>
-  </Div3>
+  </Social>
+  <HamBurger onClick = {() => setisOpen(!isOpen)}>
+    {isOpen? <GrClose style={{ color:"black"}}/> : <FaHamburger style={{ color:"black"}}/> }
+    
+  </HamBurger>
   </Container>
-);
+  )
+  }
 
 export default Header;

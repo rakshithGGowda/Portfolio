@@ -13,7 +13,7 @@ const Hero = (props) => (
     <LeftSection >
       <SectionTitle main center ><div class="animate__animated animate__fadeInLeft">Hey.. <br/></div>
       <div class="animate__animated animate__fadeInUp animate__delay-1s">I'm Rakshith<br/></div>
-      <div class="animate__animated animate__flipInX animate__delay-2s">Web developer</div>
+      <div class="animate__animated animate__flipInX animate__delay-2s">A Web developer</div>
       </SectionTitle>
       <SectionText>
       <span class="animate__animated animate__flipInX animate__delay-3s">
