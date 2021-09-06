@@ -10,7 +10,7 @@ export const Container = styled.div`
   opacity:0.7;
   align-content: center;
   justify-content: space-around;
-  background-color: #F2F5F7;
+  background-image: linear-gradient(160deg,#a9cde8,#F9DFDC);
   width:100%;
   @media ${(props) => props.theme.breakpoints.sm} {
   }
@@ -76,7 +76,7 @@ export const NavLink = styled.a`
   color:black;
   margin-left: 20px;
   &:hover {
-    color: #0A81AB;
+    color: white;
     opacity: 1;
     cursor: pointer;
     font-size:135%;
