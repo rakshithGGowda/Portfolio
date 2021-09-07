@@ -35,6 +35,24 @@ export const projects = [
     visit: 'https://chatuppyo.netlify.app/',
     id: 3,
   },
+  {
+    title: 'Sample4',
+    description: "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem",
+    image: '/images/projects.jpeg',
+    tags: ['Item1', 'Item2', 'Item3'],
+    source: 'https://github.com/rakshithGGowda/ChatUpp/tree/master',
+    visit: 'https://chatuppyo.netlify.app/',
+    id: 4,
+  },
+  {
+    title: 'Sample5',
+    description: "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem",
+    image: '/images/projects.jpeg',
+    tags: ['Item1', 'Item2', 'Item3'],
+    source: 'https://github.com/rakshithGGowda/ChatUpp/tree/master',
+    visit: 'https://chatuppyo.netlify.app/',
+    id: 5,
+  },
 ];
 
 export const TimeLineData = [

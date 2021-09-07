@@ -5,14 +5,18 @@ export const Img = styled.img`
   height:100%;
   object-fit: cover;
   overflow: hidden;
-`
+  transition: all .25s ease-in;
+  &:hover {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+`;
 
 export const GridContainer = styled.section`
 display: grid;
 grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
 padding: 3rem;
 place-items: center;
-column-gap: 2rem;
 row-gap: 3rem;
 @media ${(props) => props.theme.breakpoints.sm} {
   display: flex;
@@ -20,14 +24,57 @@ row-gap: 3rem;
   padding: 2rem;
   padding-bottom: 0;
 }
-
 `
+export const ViewMore = styled.div`
+opacity:0;
+position:absolute;
+left: 50%;
+top:50%;
+width:20px;
+height:20px;
+background-color: pink;
+-webkit-transition:  .25s ease-in;
+-o-transition: .25s ease-in;
+transition:  .25s ease-in;
+border-radius: 50%;
+text-align:center;
+padding-top:9px;
+font-size: 3px;
+cursor:pointer;
+// transform: translate(-50%, -50%);
+
+&:hover {
+  background-color:black;
+}
+`;
+
 export const BlogCard = styled.div`
-  border-radius: 10px;
-  box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
+position:relative;
   text-align: center;
   width: 400px;
-  padding: 0 0 1rem 0;
+  height: 200px;
+  opacity:0.6;
+  transition: all .25s ease-in;
+
+  
+  &:hover {
+    opacity: 1;
+  }
+
+  &:hover ${ViewMore} {
+  opacity:1;
+  display: block;
+  z-index: 9;
+  background-image: linear-gradient(180deg,#a9cde8,#F9DFDC);;
+  color: black;
+  -webkit-transition: .2s ease-in;
+  -o-transition:  .2s ease-in;
+  transition:  .2s ease-in;
+  -webkit-transform: scale(5);
+  -ms-transform: scale(5);
+  transform: scale(5);
+  }
+
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
   }
@@ -110,4 +157,4 @@ padding: 2rem;
 export const Tag = styled.li`
 color: #d8bfbf;
 font-size: 1.5rem;
-`
+`;

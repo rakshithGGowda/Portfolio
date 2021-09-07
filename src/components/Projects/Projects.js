@@ -1,7 +1,7 @@
 import React from 'react';
 import "animate.css"
 
-import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
+import { BlogCard, CardInfo, ExternalLinks, GridContainer,ViewMore, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
 
@@ -9,15 +9,15 @@ import { projects } from '../../constants/constants';
 // const projectsItems = [1,2,3,4,5,6]
 
 const Projects = () => (
-  <Section nopadding id="projects">
-    <SectionDivider />
-    <SectionTitle main><div class="animate__animated animate__fadeInLeft " >Some of my projects</div></SectionTitle>
+  <Section nopadding style={{paddingTop:"10vh"}} id="projects">
+    <SectionTitle main><div class="animate__animated animate__fadeInLeft " >Some of my projects..</div></SectionTitle>
     <GridContainer>
       {projects.map((project) =>(
         <div>
          <BlogCard key={project.id}>
            <Img src={project.image}/>
-           <TitleContent>
+           <ViewMore>Learn More</ViewMore>
+           {/* <TitleContent>
              <HeaderThree title>{project.title}</HeaderThree>
              <Hr/>
             </TitleContent>
@@ -33,7 +33,7 @@ const Projects = () => (
               <UtilityList>
                 <ExternalLinks href={project.visit} >Visit</ExternalLinks>
                 <ExternalLinks href={project.source} >Code</ExternalLinks>
-              </UtilityList>
+              </UtilityList> */}
          </BlogCard>
         </div>
       ))}
