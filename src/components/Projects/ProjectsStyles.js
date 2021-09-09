@@ -64,7 +64,7 @@ position:relative;
   &:hover ${ViewMore} {
   opacity:1;
   display: block;
-  z-index: 9;
+  z-index: 3;
   background-image: linear-gradient(180deg,#a9cde8,#F9DFDC);;
   color: black;
   -webkit-transition: .2s ease-in;
@@ -80,18 +80,19 @@ position:relative;
   }
 `;
 export const TitleContent = styled.div`
+  display: ${({isOpen}) => (isOpen ? "block": "none")};
   text-align: center;
   z-index: 20;
   width: 100%;
 
 `;
 
-
 export const HeaderThree = styled.h3`
+  margin:auto;
   font-weight: 500;
   letter-spacing: 2px;
-  color: #9cc9e3;
-  padding: .5rem 0;
+  color: white;
+  padding: 1.5rem 0;
   font-size: ${(props) => props.title ? '3rem' : '2rem'};
 `;
 
@@ -120,32 +121,30 @@ export const CardInfo = styled.p`
   color: #e4e6e7;
   font-style: 2rem;
   line-height: 24px;
-  text-align: justify;
+  text-align: center;
   @media ${(props) => props.theme.breakpoints.sm} {
     padding:.3rem
   
 }
 `;
 
-
-export const UtilityList = styled.ul`
-  list-style-type: none;
-  padding: 0;
-  display: flex;
-  justify-content: space-around;
-  margin: 2.5rem 0;
-`;
-
 export const ExternalLinks = styled.a`
-color:#000;
+position:absolute;
+text-align:center;
+width: 20vh;
+color:cyan;
+top:40%;
+left:50%;
+transform: translate(-50%, -50%);
 font-size: 1.6rem;
 padding:0.8rem 1.5rem;
-background: #d1d3d5;
+background: transprent;
 border-radius: 25px;
+border: 2px solid cyan;
 transition: 0.1s ease-in;
 &:hover{
-  background: #fff;
-  padding: 0.8rem 2rem;
+  color:white;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 `;
 
@@ -157,4 +156,53 @@ padding: 2rem;
 export const Tag = styled.li`
 color: #d8bfbf;
 font-size: 1.5rem;
+`;
+
+export const Overlay = styled.div`
+overflow: auto;
+color: white;
+position: fixed;
+width: 100%;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background-color: rgba(0, 0, 0, 0.5);
+z-index: 9;
+height: 100vh;
+padding: 4px;
+div {
+  position:relative;
+  background-color: black;
+  width: 50%;
+  display:flex;
+  flex-direction: column;
+  margin:auto;
+  border: 1px solid white;
+  // height:98vh;
+  padding-bottom: 5rem;
+  @media ${(props) => props.theme.breakpoints.sm} {
+    width: 95%;
+    padding: 1rem;
+  }
+
+    .overlay-close-btn {
+      color:white;
+      position: absolute;
+      right: 6px;
+      top: 6px;
+      cursor: pointer;
+      font-size: 24px;
+      font-weight: 900;
+      transition: 0.2s ease-in;
+      &:hover {
+          color: lightgray;
+          opacity: 0.7;
+          transform: scale(1.2);
+    }
+    overlay-project-img {
+      
+    }
+}
+}
 `;
