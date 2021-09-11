@@ -22,7 +22,7 @@ export const Section = styled.section`
   transition: 0.3s ease-in;
   scroll-snap-align: start;
   min-height:100vh;
-  margin-top: 10vh;
+  // margin-top: 7vh;
 
   @media ${(props) => props.theme.breakpoints.md} {
     padding: 12px 48px 0;

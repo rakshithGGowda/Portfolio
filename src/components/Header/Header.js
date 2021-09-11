@@ -10,7 +10,7 @@ import { Container, Logo, NavLinks, Social, NavLink, SocialIcons,HamBurger } fro
 const Header = () =>  {
   const [isOpen, setisOpen] = useState(false)
   return(
-  <Container>
+  <Container className = "animate__animated animate__fadeInDown">
   <Logo>
    <Link href="/">
      <a style={{ display:"flex", alignItems:"center", color:"black"}}>

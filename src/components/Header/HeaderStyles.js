@@ -33,6 +33,7 @@ export const NavLinks = styled.div`
   display: flex;
   justify-content: space-around;
   flex:30%;
+  margin-right:10vh;
   @media ${(props) => props.theme.breakpoints.md} {
     overflow: hidden;
     flex-direction: column;
