@@ -30,8 +30,8 @@ const Projects = () => {
             <HeaderThree title>{projectOpened.title}</HeaderThree>
               <Hr/>
         <CardInfo>{projectOpened.description}</CardInfo>
-          <ExternalLinks target="_blank" href={projectOpened.visit} >Visit</ExternalLinks>
-          {/* <ExternalLinks target="_blank" href={projectOpened.source} >Code</ExternalLinks> */}
+          <ExternalLinks target="_blank" href={projectOpened.visit} >{projectOpened.visit}</ExternalLinks>
+          <ExternalLinks target="_blank" href={projectOpened.source} >{projectOpened.source}</ExternalLinks>
       </div>
   )
 
@@ -44,7 +44,7 @@ const Projects = () => {
         <div>
          <BlogCard onClick={() => {openDetails(project)}} key={project.id}>
            <Img src={project.image}/>
-           <ViewMore >Learn More</ViewMore>
+           <ViewMore >VIEW PROJECT</ViewMore>
          </BlogCard>
         </div>
       ))}
