@@ -8,7 +8,6 @@ export const Img = styled.img`
   transition: all .25s ease-in;
   &:hover {
     opacity: 1;
-    transform: scale(1.1);
   }
 `;
 
@@ -41,7 +40,6 @@ text-align:center;
 padding-top:9px;
 font-size: 3px;
 cursor:pointer;
-// transform: translate(-50%, -50%);
 
 &:hover {
   background-color:black;
@@ -53,12 +51,13 @@ position:relative;
   text-align: center;
   width: 400px;
   height: 200px;
-  opacity:0.6;
+  opacity:0.75;
   transition: all .25s ease-in;
 
   
   &:hover {
     opacity: 1;
+    transform: scale(1.1);
   }
 
   &:hover ${ViewMore} {
@@ -179,7 +178,6 @@ div {
   flex-direction: column;
   margin:auto;
   border: 1px solid white;
-  // height:98vh;
   padding-bottom: 5rem;
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 95%;
