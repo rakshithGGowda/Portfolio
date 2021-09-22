@@ -4,11 +4,10 @@ import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
 const Technologies = () =>  (
-  <Section id="tech"> 
-    <SectionDivider/>
+  <Section style={{paddingTop:"14vh"}} id="tech"> 
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I have worked litle nskdnk nkssd sll  ks sl sskdn smasasa san pad sd sind 
+      Proident commodo minim dolore cillum culpa mollit. Aute exercitation ex nostrud enim irure amet id est enim Lorem nostrud laboris. Lorem proident nulla aliquip officia.
     </SectionText>
     <List>
       <ListItem>

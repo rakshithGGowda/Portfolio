@@ -64,7 +64,7 @@ position:relative;
   opacity:1;
   display: block;
   z-index: 3;
-  background-image: linear-gradient(180deg,#a9cde8,#F9DFDC);;
+  background-image: linear-gradient(0deg,#a9cde8,#F9DFDC);;
   color: black;
   -webkit-transition: .2s ease-in;
   -o-transition:  .2s ease-in;
