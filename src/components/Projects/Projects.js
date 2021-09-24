@@ -3,7 +3,7 @@ import "animate.css"
 import { AiFillCloseCircle } from 'react-icons/ai';
 
 import { BlogCard, CardInfo, ExternalLinks, GridContainer,ViewMore, HeaderThree, Hr,Overlay,projectOverlay, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
-import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
+import { Section, SectionTitle } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
 
 
