@@ -43,7 +43,7 @@ const Timeline = () => {
   }, []);
 
   return (
-    <Section id= "about">
+    <Section style={{paddingTop:"0vh" , minHeight:"20vh"}} id= "about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
         The purpose of get my self a good skill on all the technology an ajbfp per sssskn[n piwrqwm  jeweth oehf q]
@@ -111,7 +111,6 @@ const Timeline = () => {
           </CarouselButton>
           ))}
       </CarouselButtons>
-      <SectionDivider/>
     </Section>
   );
 };

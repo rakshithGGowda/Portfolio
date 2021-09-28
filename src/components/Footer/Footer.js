@@ -9,26 +9,26 @@ const Footer = () => {
    <FooterWrapper>
      <LinkList>
      <LinkColumn>
-     <LinkTitle>Call</LinkTitle>
-     <LinkItem href="tel:9731429857">9731429857</LinkItem>
+     <LinkTitle>You can contact me at:</LinkTitle>
+     <LinkItem href="tel:9731429857">+91 9731429857</LinkItem>
      </LinkColumn>
      <LinkColumn>
-     <LinkTitle>Email</LinkTitle>
+     <LinkTitle>You can Email to:</LinkTitle>
      <LinkItem href="mailto:rakshithgowdag89@mail.com">rakshithgowdag89@mail.com</LinkItem>
      </LinkColumn>
      </LinkList>
      <SocialIconsContainer>
        <CompanyContainer>
-         <Slogan>Do Epic Shit!</Slogan>
+         <Slogan>Get Rich or Die Tryin'!</Slogan>
        </CompanyContainer>
        <SocialContainer>
-        <SocialIcons href="https://github.com/rakshithGGowda">
+        <SocialIcons href="https://github.com/rakshithGGowda" style = {{color:"white"}}>
         <AiFillGithub/>
       </SocialIcons>
-      <SocialIcons href="https://www.linkedin.com/in/rakshith-gowda-604a94178/">
+      <SocialIcons href="https://www.linkedin.com/in/rakshith-gowda-604a94178/" style = {{color:"white"}}>
         <AiFillLinkedin/>
       </SocialIcons>
-      <SocialIcons href="https://www.instagram.com/">
+      <SocialIcons href="https://www.instagram.com/" style = {{color:"white"}}>
         <AiFillInstagram/>
       </SocialIcons>
        </SocialContainer>
