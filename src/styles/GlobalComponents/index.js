@@ -70,7 +70,7 @@ export const SectionTitle = styled.h2`
 export const SectionText = styled.p`
   font-size: 18px;
   line-height: 30px;
-  font-weight: 200;
+  font-weight: 280;
   padding-bottom: 3.6rem;
   color: rgba(255, 255, 255, 0.5);
 
