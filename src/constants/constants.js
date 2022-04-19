@@ -23,7 +23,7 @@ export const projects = [
       image: '/images/3.png',
       tags: ['React', 'SpringJs'],
     source: 'https://github.com/rakshithGGowda/xope-collections',
-    visit: 'https://rakshithportfolio.netlify.app',
+    visit: 'https://xopecollection.netlify.app/',
     id: 2,
   },
   {
