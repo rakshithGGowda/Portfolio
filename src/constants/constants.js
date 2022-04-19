@@ -22,8 +22,8 @@ export const projects = [
     description: "Brand new Jewelry collection",
       image: '/images/3.png',
       tags: ['React', 'SpringJs'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    source: 'https://rakshithportfolio.netlify.app',
+    visit: 'https://github.com/rakshithGGowda/xope-collections',
     id: 2,
   },
   {
