@@ -14,16 +14,16 @@ export const projects = [
     image: '/images/2.png',
     tags: ['React', 'JavaScript','Ecommerce'],
     source: 'https://github.com/rakshithGGowda/RBuy',
-    visit: 'rbuy.netlify.app',
+    visit: 'https://rbuy.netlify.app',
     id: 1,
   },
   {
-    title: 'ACUN - Degree project',
-    description: "Age Classification using ",
+    title: 'Xope Collections',
+    description: "Brand new Jewelry collection",
       image: '/images/3.jpg',
-      tags: ['React', 'WebRTC'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+      tags: ['React', 'SpringJs'],
+    source: 'https://github.com/rakshithGGowda/xope-collections',
+    visit: 'https://xopecollection.netlify.app/',
     id: 2,
   },
   {
@@ -31,28 +31,10 @@ export const projects = [
     description: "we will create a full Realtime Chat Application Using ChatEngine running for complete end-to-end messaging service, with front end React, Ability to sign in with Google or facebook with firebase",
     image: '/images/4.jpg',
     tags: ['React', 'ChatEngine', 'Firebase'],
-    source: 'https://github.com/rakshithGGowda/ChatUpp/tree/master',
+    source: 'https://github.com/rakshithGGowda/ChatUpp',
     visit: 'https://chatuppyo.netlify.app/',
     id: 3,
-  },
-  {
-    title: 'Sample4',
-    description: "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem",
-    image: '/images/projects.jpeg',
-    tags: ['Item1', 'Item2', 'Item3'],
-    source: 'https://github.com/rakshithGGowda/ChatUpp/tree/master',
-    visit: 'https://chatuppyo.netlify.app/',
-    id: 4,
-  },
-  {
-    title: 'Sample5',
-    description: "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem",
-    image: '/images/projects.jpeg',
-    tags: ['Item1', 'Item2', 'Item3'],
-    source: 'https://github.com/rakshithGGowda/ChatUpp/tree/master',
-    visit: 'https://chatuppyo.netlify.app/',
-    id: 5,
-  },
+  }
 ];
 
 export const TimeLineData = [
