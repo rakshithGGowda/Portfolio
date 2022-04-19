@@ -26,7 +26,7 @@ const Projects = () => {
   const body = (
     <div className="animate__animated animate__fadeIn">
           <AiFillCloseCircle className = "overlay-close-btn" onClick = {closeOverlay}/>
-          <img className = "overlay-project-img" src={projectOpened.image}></img>
+          <iframe className = "overlay-project-img"  width="fit-content" height="300" src={projectOpened.visit}></iframe>
             <HeaderThree title>{projectOpened.title}</HeaderThree>
               <Hr/>
         <CardInfo>{projectOpened.description}</CardInfo>
@@ -38,7 +38,7 @@ const Projects = () => {
 
   return (
   <Section nopadding style={{paddingTop:"10vh"}} id="projects">
-    <SectionTitle main><div class="animate__animated animate__fadeInLeft " >Some of my projects..</div></SectionTitle>
+    <SectionTitle main><div className="animate__animated animate__fadeInLeft " >Some of my projects..</div></SectionTitle>
     <GridContainer>
       {projects.map((project) =>(
         <div>

@@ -24,7 +24,7 @@ class Canvas extends Component {
         params={{
           particles: {
             number: {
-              value: 30,
+              value: 40,
               density: {
                 enable: true,
                 value_area: 800
@@ -52,7 +52,7 @@ class Canvas extends Component {
                 enable: true,
                 speed: 1,
                 opacity_min: 0.1,
-                sync: false
+                sync: true
               }
             },
             size: {
@@ -67,12 +67,12 @@ class Canvas extends Component {
             },
             line_linked: {
               enable_auto: true,
-              distance: 100,
+              distance: 150,
               color: "#8bb4c5",
               opacity: 1,
               width: 2,
               condensed_mode: {
-                enable: false,
+                enable: true,
                 rotateX: 600,
                 rotateY: 600
               }
@@ -84,7 +84,7 @@ class Canvas extends Component {
               random: true,
               straight: false,
               out_mode: "out",
-              bounce: false,
+              bounce: true,
               attract: {
                 enable: false,
                 rotateX: 600,
@@ -96,7 +96,7 @@ class Canvas extends Component {
             detect_on: "canvas",
             events: {
               onhover: {
-                enable: true
+                enable: true,
               },
               onclick: {
                 enable: true

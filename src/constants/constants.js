@@ -20,10 +20,10 @@ export const projects = [
   {
     title: 'Xope Collections',
     description: "Brand new Jewelry collection",
-      image: '/images/3.jpg',
+      image: '/images/3.png',
       tags: ['React', 'SpringJs'],
-    source: 'https://github.com/rakshithGGowda/xope-collections',
-    visit: 'https://xopecollection.netlify.app/',
+    source: 'https://google.com',
+    visit: 'https://google.com',
     id: 2,
   },
   {
@@ -31,7 +31,7 @@ export const projects = [
     description: "we will create a full Realtime Chat Application Using ChatEngine running for complete end-to-end messaging service, with front end React, Ability to sign in with Google or facebook with firebase",
     image: '/images/4.jpg',
     tags: ['React', 'ChatEngine', 'Firebase'],
-    source: 'https://github.com/rakshithGGowda/ChatUpp',
+    source: 'https://github.com/rakshithGGowda/ChatUpp/tree/master',
     visit: 'https://chatuppyo.netlify.app/',
     id: 3,
   }

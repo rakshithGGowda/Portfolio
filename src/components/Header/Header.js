@@ -36,13 +36,13 @@ const Header = () =>  {
     </li>
   </NavLinks>
   <Social>
-    <SocialIcons href="https://github.com/rakshithGGowda">
+    <SocialIcons href="https://github.com/rakshithGGowda" title="View Rakshith's GitHub Profile" target="_blank" rel="noopener noreferrer">
       <AiFillGithub/>
     </SocialIcons>
-    <SocialIcons href="https://www.linkedin.com/in/rakshith-gowda-604a94178/">
+    <SocialIcons href="https://www.linkedin.com/in/rakshith-gowda-604a94178/" title="View Rakshith's LinkedIn Profile" target="_blank" rel="noopener noreferrer">
       <AiFillLinkedin/>
     </SocialIcons>
-    <SocialIcons href="https://twitter.com/Rakshit86337943">
+    <SocialIcons href="https://twitter.com/Rakshit86337943" title="View Rakshith's twitter Profile" target="_blank" rel="noopener noreferrer">
       <AiFillTwitterCircle/>
     </SocialIcons>
   </Social>

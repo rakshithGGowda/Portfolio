@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const Container = styled.div`
+export const Container = styled.div `
   display: flex;
   padding-top: 1rem;
   padding:1rem;
@@ -15,7 +15,7 @@ export const Container = styled.div`
   @media ${(props) => props.theme.breakpoints.sm} {
   }
 `;
-export const Logo = styled.div`
+export const Logo = styled.div `
   display: flex;
   flex-direction: row;
   flex:30%;
@@ -24,12 +24,12 @@ export const Logo = styled.div`
   }
 `;
 
-export const Span = styled.span`
+export const Span = styled.span `
   font-size:2rem;
   color:black;
 `;
 
-export const NavLinks = styled.div`
+export const NavLinks = styled.div `
   display: flex;
   justify-content: space-around;
   flex:30%;
@@ -45,7 +45,7 @@ export const NavLinks = styled.div`
   }
 `;
 
-export const HamBurger = styled.div`
+export const HamBurger = styled.div `
   display:none;
   flex-direction: column;
   cursor:pointer;
@@ -68,8 +68,8 @@ export const HamBurger = styled.div`
 
 
 // Navigation Links
-export const NavLink = styled.a`
-  font-size: 1.4vw;
+export const NavLink = styled.a `
+  font-size: 1vw;
   line-height: 32px;
   color: rgba(255, 255, 255, 0.90);
   opacity: 0.8;
@@ -98,7 +98,7 @@ export const NavLink = styled.a`
 
 // Social Icons 
 
-export const SocialIcons = styled.a`
+export const SocialIcons = styled.a `
 transition: 0.3s ease;
 color: #212d45;
 border-radius: 50px;
@@ -115,7 +115,7 @@ margin-left:25px;
   }
 `;
 
-export const Social = styled.div`
+export const Social = styled.div `
   display: flex;
   justify-content: flex-end;
   flex:30%;
