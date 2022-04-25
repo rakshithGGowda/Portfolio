@@ -44,7 +44,7 @@ const Projects = () => {
         <div>
          <BlogCard onClick={() => {openDetails(project)}} key={project.id}>
            <Img src={project.image}/>
-           <ViewMore >VIEW PROJECT</ViewMore>
+           <ViewMore >{project.title}</ViewMore>
          </BlogCard>
         </div>
       ))}

@@ -43,6 +43,10 @@ export const CarouselItem = styled.div`
   background: #00000;
   border-radius: 3px;
   max-width: 196px;
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
 
   @media ${props => props.theme.breakpoints.md} {
     max-width: 124px;
@@ -75,6 +79,7 @@ export const CarouselItemTitle = styled.h4`
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 8px;
+  text-align:center;
 
   @media ${props => props.theme.breakpoints.md} {
     font-size: 20px;
@@ -105,6 +110,7 @@ export const CarouselItemText = styled.p`
   letter-spacing: 0.02em;
   color: rgba(255, 255, 255, 0.75);
   padding-right: 16px;
+  text-align: center;
 
   @media ${props => props.theme.breakpoints.md} {
     font-size: 12px;

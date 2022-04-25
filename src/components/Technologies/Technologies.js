@@ -7,7 +7,8 @@ const Technologies = () =>  (
   <Section style={{paddingTop:"14vh"}} id="tech"> 
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      Proident commodo minim dolore cillum culpa mollit. Aute exercitation ex nostrud enim irure amet id est enim Lorem nostrud laboris. Lorem proident nulla aliquip officia.
+    I create successful responsive websites that are fast, easy to use, and built with best practices. The main area of my expertise is front-end development, HTML, CSS, JS, building small and medium web apps, custom plugins, features, animations, and coding interactive layouts.<br/>
+    I also Learning/applying full-stack development with popular open-source platform like NodeJs(Express), MongoDB, Firebase and others
     </SectionText>
     <List>
       <ListItem>

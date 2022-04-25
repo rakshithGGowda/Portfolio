@@ -38,6 +38,9 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2020, text: 'Started my journey in publics sapient as junior Associate Experience Technology', },
-  { year: 2021, text: 'Working as a freelance full-developer', },
+  { year: 2020, text: 'Started my journey in publics sapient as Associate Quality Engineer L1 - Front-End UI Web Automation testing', },
+  { year: 2020, text: 'learnt and explore Front-end UI/UX development and design, Gained great skill and knowledge on front-End development tools,libraries,frameworks', },
+  { year: 2021, text: 'Worked at publics sapient as junior Associate Experience Technology - Front-End Web development', },
+  { year: 2022, text: 'Secured a All india rank of 2301 in GATE examination in Computer science and Information Technology', },
+  { }
 ];
