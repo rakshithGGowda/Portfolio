@@ -69,7 +69,7 @@ export const HamBurger = styled.div `
 
 // Navigation Links
 export const NavLink = styled.a `
-  font-size: 1vw;
+  font-size: 1.2vw;
   line-height: 32px;
   color: rgba(255, 255, 255, 0.90);
   opacity: 0.8;
@@ -80,7 +80,7 @@ export const NavLink = styled.a `
     color: white;
     opacity: 1;
     cursor: pointer;
-    font-size:135%;
+    font-size:110%;
   }
   @media ${(props) => props.theme.breakpoints.sm} {
     font-size:12px;
