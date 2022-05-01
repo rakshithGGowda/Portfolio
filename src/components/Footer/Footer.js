@@ -19,7 +19,7 @@ const Footer = () => {
      </LinkList>
      <SocialIconsContainer>
        <CompanyContainer>
-         <Slogan>const justDoit = (success) => success ? searchForNextBiggerThings() : justDoit(tryAgain(this.state.beAwesome))</Slogan>
+         <Slogan>const justDoit = (success) => success ? findNextBigThings() : justDoit(tryAgain(this.state.beingAwesome))</Slogan>
        </CompanyContainer>
        <SocialContainer>
         <SocialIcons href="https://github.com/rakshithGGowda" style = {{color:"white"}}>
