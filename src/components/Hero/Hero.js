@@ -13,10 +13,12 @@ const Hero = (props) => (
     <LeftSection >
       <SectionTitle main center ><div className="animate__animated animate__fadeInLeft">Hey.. <br/></div>
       <span className="animate__animated animate__fadeInUp animate__delay-1s">I'm</span> <span className="animate__animated animate__fadeInUp" style={{animationDelay:"1.5s"}}>Rakshith<br/></span>
-      <span className="animate__animated animate__fadeInUp" style={{animationDelay:"2s"}} >A</span> <span className="animate__animated animate__fadeInUp" style={{animationDelay:"2.2s"}} >Web</span> <span className="animate__animated animate__fadeInUp" style={{animationDelay:"2.7s"}} >Developer</span>
+      <span className="animate__animated animate__fadeInUp" style={{animationDelay:"2s"}} >A</span> <span className="animate__animated animate__fadeInUp" style={{animationDelay:"2.2s"}} >Machine Learning</span> <span className="animate__animated animate__fadeInUp" style={{animationDelay:"2.7s"}} >Engineer</span>
       </SectionTitle>
       <SectionText>
-      <span className="animate__animated animate__flipInX animate__delay-3s">Working in an environment those counties to nurture innovation,</span> <span className="animate__animated animate__flipInX" style={{animationDelay:"3.4s"}} >I intend to build my career developing software that matters.</span> <span className="animate__animated animate__flipInX" style={{animationDelay:"3.7s"}} >I would like to be associated with a progressive organization that would foster my creativity and give me the opportunity and add value to the organization by sharing my technical and collaborative skills.</span>
+      <span className="animate__animated animate__flipInX animate__delay-3s">As a Machine Learning Engineer and Software Developer with over three years of experience in developing innovative solutions to develop Artificial intelligence</span>
+       <span className="animate__animated animate__flipInX" style={{animationDelay:"3.4s"}} >I intend to build my career developing software that matters.</span> <span className="animate__animated animate__flipInX" style={{animationDelay:"3.7s"}} >
+       My expertise encompasses a wide range of areas, including machine learning model research/deployment, generative AI, and full-stack web application development.</span>
       
       </SectionText>
       <div className="animate__animated animate__fadeIn" style={{animationDelay:"4.5s", animationDuration: "2s"}} >
