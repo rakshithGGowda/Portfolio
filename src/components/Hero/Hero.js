@@ -22,7 +22,7 @@ const Hero = (props) => (
       
       </SectionText>
       <div className="animate__animated animate__fadeIn" style={{animationDelay:"4.5s", animationDuration: "2s"}} >
-        <a href="https://github.com/rakshithGGowda/Portfolio/blob/master/public/Resume.pdf" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/rakshithGGowda/Portfolio/blob/master/Resume.pdf" target="_blank" rel="noopener noreferrer">
           <Button>Learn More</Button>
         </a>
       </div>
